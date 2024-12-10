@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1,h2{
+    font-family: "Young Serif", sans-serif;
+    font-weight: 400;
+    color: var(--titulo);
+}
+
+div{
+    margin: 0 53.5px ;
+}
+
+p,ul,ol{
+    color: var(--cor3);
+}
+
+span{
+    font-weight: 600;
+    color: var(--h1);
+}
+

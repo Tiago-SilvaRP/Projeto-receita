@@ -1,0 +1,155 @@
+body {
+    font-family: "Outfit", sans-serif;
+    background-color: var(--body);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white);
+    width: 982px;
+    border-radius: 25px;
+    margin: 50px;
+}
+
+.container img {
+    display: flex;
+    align-self: center;
+    width: 100%;
+    margin: 53.5px 0;
+    border-radius: 15px;
+}
+
+.container h1 {
+    font-size: 50px;
+    letter-spacing: 1.85px;
+    margin-top: -10px;
+    color: var(--h1);
+}
+
+.container .titulo p {
+    margin: 25px 0;
+    font-size: 20px;
+    line-height: 30px;
+    padding-right: 30px;
+}
+
+.container .tempo-preparacao {
+    background-color: var(--rose2);
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.container .tempo-preparacao h3 {
+    color: var(--rose1);
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: .5px;
+    padding: 35px 0 10px 35px;
+}
+
+.container .tempo-preparacao ul li::marker {
+    color: var(--rose1);
+}
+
+.container .tempo-preparacao ul {
+    margin-left: 32px;
+    padding: 0 35px;
+    margin-bottom: 20px;
+}
+
+.container .tempo-preparacao li {
+    padding: 10px 20px;
+    font-size: 20px;
+    letter-spacing: .6px;
+}
+
+.container .ingredientes,
+.instrucoes,
+.nutricao li {
+    border-bottom: solid 1px var(--cor2);
+}
+
+.container .ingredientes h2 {
+    margin-top: 45px;
+    font-size: 37px;
+}
+
+.container .ingredientes ul li::marker {
+    color: var(--titulo);
+}
+
+.container .ingredientes ul {
+    margin: 25px 30px 45px;
+}
+
+.container .ingredientes li {
+    margin: 15px 0 18px 0;
+    padding: 0 25px;
+    font-size: 20px;
+    letter-spacing: .5px;
+}
+
+.container .instrucoes h2 {
+    font-size: 37px;
+    margin-top: 35px;
+}
+
+.container .instrucoes ol li::marker {
+    color: var(--titulo);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.container .instrucoes ol {
+    margin: 10px 30px 45px;
+    line-height: 30px;
+    letter-spacing: .8;
+}
+
+.container .instrucoes ol li {
+    padding: 14px 20px 0 20px;
+    margin: 0px 0;
+    font-size: 20px;
+}
+
+
+.container .nutricao h2 {
+    margin: 33px 0 30px;
+    font-size: 37px;
+}
+
+.container .nutricao p {
+    letter-spacing: .5px;
+    display: flex;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.container .nutricao table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.container .nutricao table tr {
+    border-bottom: solid 1px var(--cor2);
+}
+
+.container .nutricao table td {
+    color: var(--cor3);
+    padding: 35px;
+}
+
+.container .nutricao .valor {
+    color: var(--titulo);
+    font-weight: 600;
+}
+
+.container .nutricao table tr:last-child {
+    border-bottom: none;
+}
